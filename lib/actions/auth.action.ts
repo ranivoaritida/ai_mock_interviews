@@ -99,7 +99,7 @@ export async function getCurrentUser(): Promise<User | null> {
         } as User;
 
     } catch (error) {
-        console.error('Error getting current user:', error);
+        console.log('Error getting current user:', error);
         return null;
         
     }
